@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: cherab-imas
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cherab/imas/archive/v${{ version }}.tar.gz
-  sha256: 0eb0dda690b1937711448961c2f6f7e60cb3f601b68d3a86cf73e8d9cecca7aa
+  sha256: 5f4c27c4fd7dbfb3570784d08f2b34e6cdd4f69ade6a15e47ebe2e3d341d166b
   patches:
     - fix_timeout.patch
 
