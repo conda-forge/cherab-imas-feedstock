@@ -70,6 +70,7 @@ tests:
     files:
       source:
         - tests/
+        - docs/generate_versions.py
     requirements:
       run:
         - pytest
